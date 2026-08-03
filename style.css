@@ -56,6 +56,8 @@ header.nav.scrolled{background:rgba(0,0,0,.8);backdrop-filter:blur(16px);border-
 .kicker{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.3em;color:var(--neon-lime);text-transform:uppercase;margin-bottom:16px;}
 .hero h1{font-weight:800;letter-spacing:-.05em;line-height:1;color:#fff;text-shadow:0 0 20px rgba(124,58,237,.6);font-size:clamp(48px,10vw,120px);margin-top:16px;}
 .hero-sub{margin-top:24px;max-width:36rem;font-size:18px;line-height:1.6;color:rgba(255,255,255,.6);}
+.hero-badges{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-top:28px;}
+.hero-badge{font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:500;color:rgba(255,255,255,.85);background:rgba(124,58,237,.1);border:1px solid rgba(124,58,237,.4);border-radius:999px;padding:8px 16px;white-space:nowrap;}
 .cta{margin-top:40px;display:inline-flex;align-items:center;gap:12px;background:var(--neon-violet);color:#fff;font-weight:700;font-size:18px;padding:16px 40px;border-radius:8px;transition:all .3s;cursor:pointer;border:none;}
 .cta:hover{box-shadow:0 0 40px rgba(124,58,237,.6),0 0 80px rgba(124,58,237,.3);transform:scale(1.05);}
 .scroll-hint{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.3em;color:rgba(255,255,255,.3);text-transform:uppercase;}

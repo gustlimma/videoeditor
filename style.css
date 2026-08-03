@@ -79,19 +79,14 @@ section{padding:80px 0;}
 
 .about{position:relative;overflow:hidden;}
 .bio{font-size:18px;line-height:1.6;color:rgba(255,255,255,.7);max-width:800px;margin:0 auto 64px;text-align:center;}
-.clients-title{font-weight:700;font-size:clamp(24px,4vw,32px);text-align:center;margin-bottom:40px;}
-.clients-grid{display:grid;grid-template-columns:1fr;gap:24px;max-width:1000px;margin:0 auto;}
-.client{display:flex;flex-direction:column;align-items:center;text-align:center;padding:16px;border-radius:12px;transition:all .3s;}
-.client:hover{transform:scale(1.03);}
-.client-avatar{position:relative;width:140px;height:140px;margin-bottom:16px;}
-.client-ring{position:absolute;inset:-6px;border-radius:50%;border:1px solid rgba(124,58,237,.3);transition:border-color .3s;}
-.client:hover .client-ring{border-color:var(--neon-violet);}
-.client-circle{width:100%;height:100%;border-radius:50%;border:2px solid var(--neon-violet);display:flex;align-items:center;justify-content:center;background:#050505;transition:all .3s;}
-.client:hover .client-circle{box-shadow:0 0 30px rgba(124,58,237,.35),0 0 60px rgba(124,58,237,.15);}
-.client-initials{font-weight:800;font-size:30px;color:rgba(255,255,255,.8);transition:color .3s;}
-.client:hover .client-initials{color:var(--neon-violet);}
-.client-name{font-weight:700;font-size:18px;}
-.client-subs{font-family:"JetBrains Mono",monospace;font-size:14px;color:var(--neon-lime);margin-top:4px;}
+.clients-title{font-weight:700;font-size:clamp(24px,4vw,32px);text-align:center;margin-bottom:12px;}
+.expertise-sub{font-size:16px;color:rgba(255,255,255,.6);text-align:center;max-width:520px;margin:0 auto 40px;}
+.expertise-grid{display:grid;grid-template-columns:1fr;gap:24px;max-width:1000px;margin:0 auto;}
+.expertise-card{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:28px;transition:all .3s;text-align:center;}
+.expertise-card:hover{border-color:rgba(124,58,237,.5);box-shadow:0 0 30px rgba(124,58,237,.2),0 0 60px rgba(124,58,237,.08);transform:translateY(-4px);}
+.expertise-icon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(124,58,237,.12);color:var(--neon-violet);margin:0 auto 18px;}
+.expertise-card h4{font-weight:700;font-size:18px;margin-bottom:10px;}
+.expertise-card p{font-size:14px;line-height:1.6;color:rgba(255,255,255,.6);}
 
 .contact{position:relative;overflow:hidden;}
 .contact-inner{max-width:800px;margin:0 auto;padding:0 24px;text-align:center;}
@@ -115,7 +110,7 @@ footer{background:#0a0a0a;border-top:1px solid rgba(255,255,255,.05);padding:40p
 @media(min-width:768px){
   .long-grid{grid-template-columns:repeat(2,1fr);}
   .short-grid{grid-template-columns:repeat(3,1fr);}
-  .clients-grid{grid-template-columns:repeat(3,1fr);}
+  .expertise-grid{grid-template-columns:repeat(3,1fr);}
   .portrait-wrap{width:200px;height:200px;}
   .contact-buttons{flex-direction:row;}
 }
